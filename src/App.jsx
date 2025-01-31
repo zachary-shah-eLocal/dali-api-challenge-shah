@@ -25,7 +25,8 @@ const App = () => {
 
 
   return (
-    <div className="mx-5 max-w-screen-lg mt-4 py-5 px-32 bg-gradient-to-br shadow-xl shadow-gray-400 from-cyan-600 to-blue-700">
+    <div className="overflow-y-scroll overscroll-none">
+    <div className="py-5 px-32 bg-gradient-to-br shadow-xl shadow-gray-400 from-cyan-600 to-blue-700 min-h-screen">
       <TopButtons setQuery={setQuery}/>
       <Inputs setQuery={setQuery} setUnits={setUnits}/>
 
@@ -39,6 +40,7 @@ const App = () => {
       )}
 
       
+    </div>
     </div>
   )
 }
