@@ -4,6 +4,8 @@
 
 - This project is easily installed once cloned using `npm install` to configure all the various packages
 
+- I would love to host this web app, but the `OpenWeatherMap` API has very strict use limits for free accounts
+
 - To test and run the project, use `npm run dev` (the local port is set by default to `3000`)
 
 ### Function
