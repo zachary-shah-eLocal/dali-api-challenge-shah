@@ -14,7 +14,7 @@
 
 ### Notes
 
-- Tailwind `4.0` has some difficulties on `Safari` (at least in my experience) so I'd advise running in chrome
+- Tailwind `4.0` has some difficulties on `Safari` (at least in my experience) so I'd advise running in `Chrome`
 
 - All the large UI and animations are drawn by me
 
