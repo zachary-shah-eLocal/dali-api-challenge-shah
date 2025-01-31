@@ -10,7 +10,7 @@ const TemperatureAndDetails = ({weather: {
     sunrise, sunset, 
     speed, humidity, 
     feels_like,
-}}) => {
+}, units,}) => {
 
     const sideBar = [
         {
@@ -29,7 +29,7 @@ const TemperatureAndDetails = ({weather: {
             id: 3,
             Icon: FiWind,
             title: "Wind",
-            value: `${speed.toFixed()} mph`,
+            value: `${speed.toFixed()} ${ units === 'metric' ? 'kmh' : 'mph'}`,
         },
     ];  
 

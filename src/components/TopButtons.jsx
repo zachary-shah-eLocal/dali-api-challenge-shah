@@ -5,19 +5,19 @@ const TopButtons = ({setQuery}) => {
     const defaultCities = [
         {
             id: 1,
-            name: 'Hanover',
-        },
-        {
-            id: 2,
             name: 'Boston',
         },
         {
-            id: 3,
+            id: 2,
             name: 'New York',
         },
         {
-            id: 4,
+            id: 3,
             name: 'San Francisco',
+        },
+        {
+            id: 4,
+            name: 'Dubai',
         },
         {
             id: 5,
